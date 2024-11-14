@@ -8,15 +8,6 @@
         Title="Error" Height="1080" Width="1920">
     <Grid Background="Pink">
         <!-- Barra de navegación superior -->
-        <StackPanel Orientation="Horizontal" Background="#FFC0CB" Height="50" VerticalAlignment="Top">
-            <Button Content="Home" Width="100" Background="Transparent" BorderBrush="Transparent" />
-            <Button Content="Characters" Width="100" Background="Transparent" BorderBrush="Transparent" />
-            <Button Content="News" Width="100" Background="Transparent" BorderBrush="Transparent" />
-            <Button Content="Cart" Width="100" Background="Transparent" BorderBrush="Transparent" />
-            <!-- Log In and Register Buttons -->
-            <Button Content="Log In" Width="80" HorizontalAlignment="Right" Margin="Auto"  />
-            <Button Content="Register" Width="80" />
-        </StackPanel>
 
         <!-- Sección de error central -->
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
