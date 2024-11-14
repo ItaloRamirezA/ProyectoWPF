@@ -29,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 85,
+          "DockedWidth": 76,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "DockedWidth": 81,
+          "DockedWidth": 90,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -81,7 +81,7 @@
               "RelativeDocumentMoniker": "Login.xaml",
               "ToolTip": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeToolTip": "Login.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABcAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T09:34:05.482Z",
               "EditorCaption": ""
