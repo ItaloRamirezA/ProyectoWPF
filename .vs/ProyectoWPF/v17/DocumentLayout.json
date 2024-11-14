@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\italo\\desktop\\proyectowpf\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\italo\\desktop\\proyectowpf\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\italo\\desktop\\proyectowpf\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\italo\\Desktop\\ProyectoWPF\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeDocumentMoniker": "Login.xaml",
@@ -53,8 +53,7 @@
               "ToolTip": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Home.xaml",
               "RelativeToolTip": "Home.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T08:46:03.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:46:03.395Z"
             },
             {
               "$type": "Document",
@@ -76,13 +75,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeDocumentMoniker": "Login.xaml",
               "ToolTip": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeToolTip": "Login.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAnwCIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABcAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T09:34:05.482Z",
               "EditorCaption": ""
@@ -97,8 +96,7 @@
               "RelativeToolTip": "Home.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T18:15:38.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T18:15:38.308Z"
             }
           ]
         }
