@@ -1,38 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\",
+  "WorkspaceRootPath": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\error.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:error.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\documents\\gorka\\interfaces\\proyectowpf\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\italo\\desktop\\proyectowpf\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\italo\\desktop\\proyectowpf\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\news.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:news.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\character.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:character.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\italo\\Desktop\\ProyectoWPF\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\italo\\Desktop\\ProyectoWPF\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,84 +25,28 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 83,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 85,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Register.xaml",
-              "RelativeDocumentMoniker": "Register.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Register.xaml",
-              "RelativeToolTip": "Register.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T08:48:05.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Login.xaml",
+              "DocumentMoniker": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeDocumentMoniker": "Login.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Login.xaml",
+              "ToolTip": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeToolTip": "Login.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T08:47:55.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Error.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Error.xaml",
-              "RelativeDocumentMoniker": "Error.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Error.xaml",
-              "RelativeToolTip": "Error.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T08:47:44.488Z",
+              "WhenOpened": "2024-11-14T08:47:55.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Cart.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Cart.xaml",
-              "RelativeDocumentMoniker": "Cart.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Cart.xaml",
-              "RelativeToolTip": "Cart.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T08:47:31.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "News.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\News.xaml",
-              "RelativeDocumentMoniker": "News.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\News.xaml",
-              "RelativeToolTip": "News.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T08:47:18.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Character.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Character.xaml",
-              "RelativeDocumentMoniker": "Character.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Character.xaml",
-              "RelativeToolTip": "Character.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T08:47:09.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Home.xaml",
+              "DocumentMoniker": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Home.xaml",
               "RelativeDocumentMoniker": "Home.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\Home.xaml",
+              "ToolTip": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Home.xaml",
               "RelativeToolTip": "Home.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T08:46:03.395Z",
@@ -126,14 +54,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Documents\\Gorka\\INTERFACES\\ProyectoWPF\\App.xaml",
+              "ToolTip": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T08:45:44.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 81,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
+              "RelativeDocumentMoniker": "Login.xaml",
+              "ToolTip": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
+              "RelativeToolTip": "Login.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T09:34:05.482Z",
               "EditorCaption": ""
             }
           ]
