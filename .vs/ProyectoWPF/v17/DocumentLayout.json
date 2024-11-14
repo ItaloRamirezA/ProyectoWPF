@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\italo\\Desktop\\ProyectoWPF\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\italo\\desktop\\proyectowpf\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\italo\\desktop\\proyectowpf\\home.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\italo\\Desktop\\ProyectoWPF\\home.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -82,7 +82,7 @@
               "RelativeDocumentMoniker": "Login.xaml",
               "ToolTip": "C:\\Users\\italo\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeToolTip": "Login.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAnwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAnwCIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T09:34:05.482Z",
               "EditorCaption": ""
