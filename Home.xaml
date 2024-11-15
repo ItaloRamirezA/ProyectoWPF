@@ -5,8 +5,70 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoWPF"
         mc:Ignorable="d"
-        Title="Home" Height="600" Width="900" Background="#FFF4A5B1">
+        Title="Home" Height="600" Width="900" Background="White">
     <Grid>
-        
+        <!-- Barra de Navegación Superior sin margen para que se ubique en la parte superior -->
+        <StackPanel Orientation="Horizontal" Background="#FFEB6EC3" Height="60" VerticalAlignment="Top">
+            <!-- Logo pequeño -->
+            <Image Source="Imagenes/Comun/logoPequeno.png" Width="50" Height="40" Margin="10"/>
+            <Button Content="Home" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" Foreground="White" BorderBrush="Transparent" Margin="5"/>
+        </StackPanel>
+
+        <!-- Contenido principal con Scroll -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="10,70,10,70">
+            <StackPanel>
+
+                <!-- Título de la sección -->
+                <TextBlock Text="Products" FontSize="30" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="#333" Margin="10,10,0,10"/>
+
+                <!-- Producto 1 -->
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Imagen del producto -->
+                    <Image Source="Imagenes/Home/myMelodiPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <!-- Descripción del producto -->
+                    <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center">
+                        <TextBlock FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left">
+                            <Run Language="es-es" Text="My Melody Peluche"/>
+                            <Run Text=" Classic Series"/>
+                        </TextBlock>
+                        <TextBlock Text="Item #123456" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
+                        <TextBlock Text="Color: Pink" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
+                    </StackPanel>
+
+                    <!-- Precio -->
+                    <TextBlock Grid.Column="2" Text="$25.99" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" 
+                               Foreground="Green" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+                </Grid>
+
+                <!-- Producto 2 -->
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Imagen del producto -->
+                    <Image Source="Imagenes/Home/kuromiPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <!-- Descripción del producto -->
+                    <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center">
+                        <TextBlock FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left">
+                            <Run Language="es-es" Text="My Melody Peluche"/>
+                            <Run Text=" Classic Series"/>
+                        </TextBlock>
+                        <TextBlock Text="Item #123456" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
+                        <TextBlock Text="Color: Pink" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
+                    </StackPanel>
+
+                    <!-- Precio -->
+                    <TextBlock Grid.Column="2" Text="$25.99" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" 
+               Foreground="Green" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>

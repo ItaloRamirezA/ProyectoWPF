@@ -14,9 +14,6 @@
             <!-- Logo pequeño -->
             <Image Source="Imagenes/Comun/logoPequeno.png" Width="50" Height="40" Margin="10"/>
             <Button Content="Home" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" Foreground="White" BorderBrush="Transparent" Margin="5"/>
-            <Button Content="Characters" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" Foreground="White" BorderBrush="Transparent" Margin="5" Click="Button_Click"/>
-            <Button Content="News" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" Foreground="White" BorderBrush="Transparent" Margin="5"/>
-            <Button Content="Cart" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" Foreground="White" BorderBrush="Transparent" Margin="5"/>
         </StackPanel>
 
         <!-- Panel de inicio de sesión -->

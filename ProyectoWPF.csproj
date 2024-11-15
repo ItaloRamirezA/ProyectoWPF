@@ -109,5 +109,13 @@
   <ItemGroup>
     <Resource Include="Imagenes\Login\logo.png" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Imagenes\Home\cinamorollPeluche.jpg" />
+    <Resource Include="Imagenes\Home\kittyPeluche.jpg" />
+    <Resource Include="Imagenes\Home\kuromiPeluche.jpg" />
+    <Resource Include="Imagenes\Home\myMelodiPeluche.jpg" />
+    <Resource Include="Imagenes\Home\pompomPeluche.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
