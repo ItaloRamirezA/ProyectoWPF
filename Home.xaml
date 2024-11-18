@@ -19,7 +19,7 @@
             <StackPanel>
 
                 <!-- Título de la sección -->
-                <TextBlock Text="Products" FontSize="40" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="#333" Margin="10,10,0,10"/>
+                <TextBlock Text="Productos" FontSize="40" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="#333" Margin="10,10,0,10"/>
 
                 <!-- Producto 1 -->
                 <Button Click="MyMelodyButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch">
