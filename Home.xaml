@@ -32,8 +32,6 @@
                         <!-- Descripción del producto -->
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="My Melody Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
-                            <TextBlock Text="Item #123456" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
-                            <TextBlock Text="Color: Pink" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
                         </StackPanel>
                     </Grid>
                 </Button>
@@ -45,11 +43,10 @@
                             <ColumnDefinition Width="100"/> <!-- Imagen -->
                             <ColumnDefinition Width="*"/>   <!-- Descripción -->
                         </Grid.ColumnDefinitions>
+                        <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/kuromiPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="Kuromi Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
-                            <TextBlock Text="Item #123456" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
-                            <TextBlock Text="Color: Black" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
                         </StackPanel>
                     </Grid>
                 </Button>
@@ -61,11 +58,11 @@
                             <ColumnDefinition Width="100"/> <!-- Imagen -->
                             <ColumnDefinition Width="*"/>   <!-- Descripción -->
                         </Grid.ColumnDefinitions>
+                        <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/cinamorollPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <!-- Descripción del producto -->
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="Cinamoroll Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
-                            <TextBlock Text="Item #123456" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
-                            <TextBlock Text="Color: White" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
                         </StackPanel>
                     </Grid>
                 </Button>
@@ -77,11 +74,11 @@
                             <ColumnDefinition Width="100"/> <!-- Imagen -->
                             <ColumnDefinition Width="*"/>   <!-- Descripción -->
                         </Grid.ColumnDefinitions>
+                        <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/kittyPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <!-- Descripción del producto -->
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="Hello Kitty Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
-                            <TextBlock Text="Item #123456" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
-                            <TextBlock Text="Color: Red" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
                         </StackPanel>
                     </Grid>
                 </Button>
@@ -91,13 +88,13 @@
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/> <!-- Imagen -->
-                            <ColumnDefinition Width="*"/>   <!-- Descripción -->    
+                            <ColumnDefinition Width="*"/> <!-- Descripción -->
                         </Grid.ColumnDefinitions>
+                        <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/pompomPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <!-- Descripción del producto -->
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="PomPomPurin Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
-                            <TextBlock Text="Item #123456" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
-                            <TextBlock Text="Color: Pink" FontSize="12" FontFamily="Arial Rounded MT Bold" Foreground="Gray" TextAlignment="Left"/>
                         </StackPanel>
                     </Grid>
                 </Button>

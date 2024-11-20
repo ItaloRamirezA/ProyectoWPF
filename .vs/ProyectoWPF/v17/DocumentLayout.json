@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpf\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpf\\home.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\home.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:Home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpf\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:Home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpf\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpf\\informacionproducto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:informacionproducto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpf\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpf\\informacionproducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:informacionproducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\InformacionProducto.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:InformacionProducto.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpf\\informacionproducto.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:informacionproducto.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\InformacionProducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:InformacionProducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\InformacionProducto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:InformacionProducto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,12 +49,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 76,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 68,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeDocumentMoniker": "Login.xaml",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Home.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml",
               "RelativeDocumentMoniker": "Home.xaml",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "InformacionProducto.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\InformacionProducto.xaml",
               "RelativeDocumentMoniker": "InformacionProducto.xaml",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -103,7 +103,7 @@
           ]
         },
         {
-          "DockedWidth": 90,
+          "DockedWidth": 98,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -114,7 +114,7 @@
               "RelativeDocumentMoniker": "Login.xaml",
               "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Login.xaml",
               "RelativeToolTip": "Login.xaml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T09:34:05.482Z",
               "EditorCaption": ""
@@ -127,40 +127,40 @@
               "RelativeDocumentMoniker": "Login.xaml.cs",
               "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Login.xaml.cs",
               "RelativeToolTip": "Login.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:42:01.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml",
-              "RelativeDocumentMoniker": "Home.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml",
-              "RelativeToolTip": "Home.xaml",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwEgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T18:15:38.308Z",
+              "WhenOpened": "2024-11-20T12:05:57.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml",
+              "RelativeDocumentMoniker": "Home.xaml",
+              "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml",
+              "RelativeToolTip": "Home.xaml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFAAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T12:06:13.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Home.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml.cs",
               "RelativeDocumentMoniker": "Home.xaml.cs",
               "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\Home.xaml.cs",
               "RelativeToolTip": "Home.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T11:42:08.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "InformacionProducto.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\InformacionProducto.xaml",
               "RelativeDocumentMoniker": "InformacionProducto.xaml",
@@ -173,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "InformacionProducto.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPF\\InformacionProducto.xaml.cs",
               "RelativeDocumentMoniker": "InformacionProducto.xaml.cs",
