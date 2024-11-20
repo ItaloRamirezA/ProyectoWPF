@@ -24,14 +24,18 @@ namespace ProyectoWPF
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        // Método para el botón Continue
+        private bool ContinueButton_Click(object sender, RoutedEventArgs e)
         {
-
+            return false;
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        // Método para el botón HOME
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
+
+
     }
 }
