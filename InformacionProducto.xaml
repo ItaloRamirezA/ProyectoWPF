@@ -28,15 +28,19 @@
         <Image x:Name="ImagenProducto" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1"/>
 
         <TextBlock Text="Nombre:" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <!-- Nombre del producto -->
         <TextBlock x:Name="NombreProducto" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
 
-        <TextBlock Text="Descripción:" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right"/>
-        <TextBlock x:Name="DescripcionProducto" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
+        <TextBlock Text="Tamaño:" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <!-- Precio del producto -->
+        <TextBlock x:Name="TamanoProducto" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
 
-        <TextBlock Text="Precio:" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="PrecioProducto" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
+        <TextBlock Text="Descripcion:" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <!-- Descripcion del producto -->
+        <TextBlock x:Name="DescripcionProducto" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
 
-        <TextBlock Text="Tamaño:" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="TamanoProducto" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
+        <TextBlock Text="Precio:" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <!-- Tamaño del producto en cm -->
+        <TextBlock x:Name="PrecioProducto" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
     </Grid>
 </Page>
