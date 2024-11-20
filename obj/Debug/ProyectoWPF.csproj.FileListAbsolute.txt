@@ -32,3 +32,5 @@ C:\Users\alumMA\Desktop\ProyectoWPF\obj\Debug\ProyectoWPF.csproj.GenerateResourc
 C:\Users\alumMA\Desktop\ProyectoWPF\obj\Debug\ProyectoWPF.csproj.CoreCompileInputs.cache
 C:\Users\alumMA\Desktop\ProyectoWPF\obj\Debug\ProyectoWPF.exe
 C:\Users\alumMA\Desktop\ProyectoWPF\obj\Debug\ProyectoWPF.pdb
+C:\Users\alumMA\Desktop\ProyectoWPF\obj\Debug\InformacionProducto.g.cs
+C:\Users\alumMA\Desktop\ProyectoWPF\obj\Debug\InformacionProducto.baml

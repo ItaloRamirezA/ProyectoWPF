@@ -25,18 +25,18 @@
             <ColumnDefinition Width="50*"/>
         </Grid.ColumnDefinitions>
 
-        <Image x:Name="Profile_Image" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1"/>
+        <Image x:Name="ImagenProducto" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1"/>
 
         <TextBlock Text="Nombre:" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right"/>
-        <TextBlock x:Name="Profile_Nombre" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
+        <TextBlock x:Name="NombreProducto" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
 
-        <TextBlock Text="Apellidos:" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right"/>
-        <TextBlock x:Name="Profile_Apellidos" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
+        <TextBlock Text="Descripción:" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <TextBlock x:Name="DescripcionProducto" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
 
-        <TextBlock Text="Email:" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="Profile_Email" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
+        <TextBlock Text="Precio:" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="PrecioProducto" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
 
-        <TextBlock Text="Notas:" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="Profiel_Notas" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
+        <TextBlock Text="Tamaño:" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="TamanoProducto" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontStretch="Expanded"/>
     </Grid>
 </Page>
