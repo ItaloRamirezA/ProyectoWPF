@@ -1,22 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace ProyectoWPF
 {
-    /// <summary>
-    /// Lógica de interacción para Home.xaml
-    /// </summary>
     public partial class Home : Window
     {
         public Home()
@@ -24,34 +13,69 @@ namespace ProyectoWPF
             InitializeComponent();
         }
 
-        // Método para el botón de "My Melody"
-        private void MyMelodyButton_Click(object sender, RoutedEventArgs e)
+        private void ProductoButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Has seleccionado el peluche My Melody.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+            var button = sender as Button;
+
+            if (button != null && int.TryParse(button.Tag.ToString(), out int productoId))
+            {
+                Producto producto = ObtenerProductoPorId(productoId);
+
+                if (producto != null)
+                {
+                    InformacionProducto ventanaInformacion = new InformacionProducto(producto);
+
+                    ventanaInformacion.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Producto no encontrado.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Error al obtener el ID del producto.");
+            }
         }
 
-        // Método para el botón de "Kuromi"
-        private void KuromiButton_Click(object sender, RoutedEventArgs e)
+        private Producto ObtenerProductoPorId(int id)
         {
-            MessageBox.Show("Has seleccionado el peluche Kuromi.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=ProyectoWPF;Integrated Security=True";
 
-        // Método para el botón de "Cinamoroll"
-        private void CinamorollButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Has seleccionado el peluche Cinamoroll.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
+            string query = "SELECT Id, Nombre, Tamano, Descripcion, Precio, ImagenPath FROM Productos WHERE Id = @Id";
 
-        // Método para el botón de "Hello Kitty"
-        private void KittyButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Has seleccionado el peluche Hello Kitty.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
+            Producto producto = null;
 
-        // Método para el botón de "PomPomPurin"
-        private void PomPomPurinButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Has seleccionado el peluche PomPomPurin.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@Id", id);
+
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        producto = new Producto
+                        {
+                            Id = reader["Id"] != DBNull.Value ? Convert.ToInt32(reader["Id"]) : 0,
+                            Nombre = reader["Nombre"] != DBNull.Value ? Convert.ToString(reader["Nombre"]) : string.Empty,
+                            Tamano = reader["Tamano"] != DBNull.Value ? Convert.ToInt32(reader["Tamano"]) : 0,
+                            Descripcion = reader["Descripcion"] != DBNull.Value ? Convert.ToString(reader["Descripcion"]) : string.Empty,
+                            Precio = reader["Precio"] != DBNull.Value ? Convert.ToSingle(reader["Precio"]) : 0f,
+                            ImagenPath = reader["ImagenPath"] != DBNull.Value ? Convert.ToString(reader["ImagenPath"]) : string.Empty
+                        };
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al consultar la base de datos: " + ex.Message);
+                }
+            }
+
+            return producto;
         }
     }
 }

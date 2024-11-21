@@ -21,15 +21,16 @@
                 <TextBlock Text="Productos" FontSize="40" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="#333" Margin="10,10,0,10"/>
 
                 <!-- Producto 1 -->
-                <Button Click="MyMelodyButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch">
+                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch" Tag="1">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="100"/> <!-- Imagen -->
-                            <ColumnDefinition Width="*"/>   <!-- Descripción -->
+                            <ColumnDefinition Width="100"/>
+                            <!-- Imagen -->
+                            <ColumnDefinition Width="*"/>
+                            <!-- Descripción -->
                         </Grid.ColumnDefinitions>
                         <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/myMelodyPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <!-- Descripción del producto -->
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="My Melody Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
                         </StackPanel>
@@ -37,13 +38,14 @@
                 </Button>
 
                 <!-- Producto 2 -->
-                <Button Click="KuromiButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch">
+                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch" Tag="2">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="100"/> <!-- Imagen -->
-                            <ColumnDefinition Width="*"/>   <!-- Descripción -->
+                            <ColumnDefinition Width="100"/>
+                            <!-- Imagen -->
+                            <ColumnDefinition Width="*"/>
+                            <!-- Descripción -->
                         </Grid.ColumnDefinitions>
-                        <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/kuromiPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="Kuromi Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
@@ -52,15 +54,15 @@
                 </Button>
 
                 <!-- Producto 3 -->
-                <Button Click="CinamorollButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch">
+                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch" Tag="3">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="100"/> <!-- Imagen -->
-                            <ColumnDefinition Width="*"/>   <!-- Descripción -->
+                            <ColumnDefinition Width="100"/>
+                            <!-- Imagen -->
+                            <ColumnDefinition Width="*"/>
+                            <!-- Descripción -->
                         </Grid.ColumnDefinitions>
-                        <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/cinamorollPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <!-- Descripción del producto -->
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="Cinamoroll Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
                         </StackPanel>
@@ -68,15 +70,15 @@
                 </Button>
 
                 <!-- Producto 4 -->
-                <Button Click="KittyButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch">
+                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch" Tag="4">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="100"/> <!-- Imagen -->
-                            <ColumnDefinition Width="*"/>   <!-- Descripción -->
+                            <ColumnDefinition Width="100"/>
+                            <!-- Imagen -->
+                            <ColumnDefinition Width="*"/>
+                            <!-- Descripción -->
                         </Grid.ColumnDefinitions>
-                        <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/kittyPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <!-- Descripción del producto -->
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="Hello Kitty Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
                         </StackPanel>
@@ -84,15 +86,15 @@
                 </Button>
 
                 <!-- Producto 5 -->
-                <Button Click="PomPomPurinButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch">
+                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Stretch" Tag="5">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="100"/> <!-- Imagen -->
-                            <ColumnDefinition Width="*"/> <!-- Descripción -->
+                            <ColumnDefinition Width="100"/>
+                            <!-- Imagen -->
+                            <ColumnDefinition Width="*"/>
+                            <!-- Descripción -->
                         </Grid.ColumnDefinitions>
-                        <!-- Imagen del producto -->
                         <Image Source="Imagenes/Home/pompomPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                        <!-- Descripción del producto -->
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                             <TextBlock Text="PomPomPurin Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
                         </StackPanel>

@@ -11,18 +11,25 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows;
 
 namespace ProyectoWPF
 {
-    /// <summary>
-    /// Lógica de interacción para InformacionProducto.xaml
-    /// </summary>
-    public partial class InformacionProducto : Page
+    public partial class InformacionProducto : Window
     {
-        public InformacionProducto()
+        public InformacionProducto(Producto producto)
         {
             InitializeComponent();
+
+            // Asignar los datos del producto a los controles
+            NombreProducto.Text = producto.Nombre;
+            TamanoProducto.Text = $"{producto.Tamano} cm";
+            DescripcionProducto.Text = producto.Descripcion;
+            PrecioProducto.Text = $"${producto.Precio:F2}";
+
+            // Cargar la imagen usando la ruta relativa obtenida
+            ImagenProducto.Source = new BitmapImage(new Uri(producto.ImagenPath, UriKind.Relative));
         }
     }
 }
+
