@@ -17,7 +17,7 @@ namespace ProyectoWPF
             string contrasena = PasswordBox.Password.Trim();
 
             if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contrasena)) {
-                MessageBox.Show("Por favor, completa todos los campos.", "Campos Vacíos", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Por favor, completa todos los campos.");
                 return;
             }
 
@@ -35,16 +35,14 @@ namespace ProyectoWPF
 
                         int count = Convert.ToInt32(command.ExecuteScalar());
 
-                        if (count == 1)
-                        {
-                            MessageBox.Show("Inicio de sesión exitoso.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                        if (count == 1) {
+                            MessageBox.Show("Inicio de sesión exitoso.");
 
                             Home homeWindow = new Home();
                             homeWindow.Show();
                             this.Close();
                         }
-                        else
-                        {
+                        else {
                             MessageBox.Show("Usuario o contraseña incorrectos.");
                         }
                     }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -59,10 +58,9 @@ namespace ProyectoWPF
                     }
                 }
                 catch (Exception ex) {
-                    MessageBox.Show("Error al consultar la base de datos: " + ex.Message);
+                    MessageBox.Show("Error al consultar la base de datos");
                 }
             }
-
             return producto;
         }
     }
