@@ -16,24 +16,17 @@ namespace ProyectoWPF
         private void ProductoButton_Click(object sender, RoutedEventArgs e)
         {
             var button = sender as Button;
-
-            if (button != null && int.TryParse(button.Tag.ToString(), out int productoId))
-            {
+            if (button != null && int.TryParse(button.Tag.ToString(), out int productoId)) {
                 Producto producto = ObtenerProductoPorId(productoId);
-
-                if (producto != null)
-                {
+                if (producto != null) {
                     InformacionProducto ventanaInformacion = new InformacionProducto(producto);
-
                     ventanaInformacion.Show();
                 }
-                else
-                {
+                else {
                     MessageBox.Show("Producto no encontrado.");
                 }
             }
-            else
-            {
+            else {
                 MessageBox.Show("Error al obtener el ID del producto.");
             }
         }
@@ -41,23 +34,19 @@ namespace ProyectoWPF
         private Producto ObtenerProductoPorId(int id)
         {
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=ProyectoWPF;Integrated Security=True";
-
             string query = "SELECT Id, Nombre, Tamano, Descripcion, Precio, ImagenPath FROM Productos WHERE Id = @Id";
 
             Producto producto = null;
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                try
-                {
+            using (SqlConnection connection = new SqlConnection(connectionString)) {
+                try {
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@Id", id);
 
                     connection.Open();
 
                     SqlDataReader reader = command.ExecuteReader();
-                    if (reader.Read())
-                    {
+                    if (reader.Read()) {
                         producto = new Producto
                         {
                             Id = reader["Id"] != DBNull.Value ? Convert.ToInt32(reader["Id"]) : 0,
@@ -69,8 +58,7 @@ namespace ProyectoWPF
                         };
                     }
                 }
-                catch (Exception ex)
-                {
+                catch (Exception ex) {
                     MessageBox.Show("Error al consultar la base de datos: " + ex.Message);
                 }
             }

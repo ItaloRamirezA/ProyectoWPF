@@ -11,20 +11,11 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
-        <!-- Imagen del producto -->
+        
         <Image x:Name="ImagenProducto" Grid.Row="0" Height="200" HorizontalAlignment="Center"/>
-
-        <!-- Nombre del producto -->
         <TextBlock x:Name="NombreProducto" Grid.Row="1" FontSize="20" HorizontalAlignment="Center" Margin="10"/>
-
-        <!-- Tamaño del producto -->
         <TextBlock x:Name="TamanoProducto" Grid.Row="2" FontSize="16" HorizontalAlignment="Center" Margin="10"/>
-
-        <!-- Descripción del producto -->
         <TextBlock x:Name="DescripcionProducto" Grid.Row="3" FontSize="14" HorizontalAlignment="Center" Margin="10"/>
-
-        <!-- Precio del producto -->
         <TextBlock x:Name="PrecioProducto" Grid.Row="4" FontSize="16" HorizontalAlignment="Center" Margin="10"/>
     </Grid>
 </Window>
