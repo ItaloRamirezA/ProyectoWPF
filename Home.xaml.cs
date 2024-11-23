@@ -14,53 +14,52 @@ namespace ProyectoWPF
 
         private void ProductoButton_Click(object sender, RoutedEventArgs e)
         {
-            var button = sender as Button;
-            if (button != null && int.TryParse(button.Tag.ToString(), out int productoId)) {
-                Producto producto = ObtenerProductoPorId(productoId);
-                if (producto != null) {
-                    InformacionProducto ventanaInformacion = new InformacionProducto(producto);
-                    ventanaInformacion.Show();
+            Button boton = sender as Button;
+            if (boton != null)
+            {
+                int idProducto = Convert.ToInt32(boton.Tag);
+                Producto producto = ObtenerProducto(idProducto);
+                if (producto != null)
+                {
+                    InformacionProducto ventana = new InformacionProducto(producto);
+                    ventana.Show();
                 }
-                else {
-                    MessageBox.Show("Producto no encontrado.");
+                else
+                {
+                    MessageBox.Show("No se encontró el producto.");
                 }
-            }
-            else {
-                MessageBox.Show("Error al obtener el ID del producto.");
             }
         }
 
-        private Producto ObtenerProductoPorId(int id)
+        private Producto ObtenerProducto(int id)
         {
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=ProyectoWPF;Integrated Security=True";
-            string query = "SELECT Id, Nombre, Tamano, Descripcion, Precio, ImagenPath FROM Productos WHERE Id = @Id";
-
+            string cadenaConexion = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=ProyectoWPF;Integrated Security=True";
+            string consulta = "SELECT * FROM Productos WHERE Id = @Id";
             Producto producto = null;
 
-            using (SqlConnection connection = new SqlConnection(connectionString)) {
-                try {
-                    SqlCommand command = new SqlCommand(query, connection);
-                    command.Parameters.AddWithValue("@Id", id);
+            SqlConnection conexion = new SqlConnection(cadenaConexion);
+            conexion.Open();
 
-                    connection.Open();
+            SqlCommand comando = new SqlCommand(consulta, conexion);
+            comando.Parameters.AddWithValue("@Id", id);
 
-                    SqlDataReader reader = command.ExecuteReader();
-                    if (reader.Read()) {
-                        producto = new Producto
-                        {
-                            Id = reader["Id"] != DBNull.Value ? Convert.ToInt32(reader["Id"]) : 0,
-                            Nombre = reader["Nombre"] != DBNull.Value ? Convert.ToString(reader["Nombre"]) : string.Empty,
-                            Tamano = reader["Tamano"] != DBNull.Value ? Convert.ToInt32(reader["Tamano"]) : 0,
-                            Descripcion = reader["Descripcion"] != DBNull.Value ? Convert.ToString(reader["Descripcion"]) : string.Empty,
-                            Precio = reader["Precio"] != DBNull.Value ? Convert.ToSingle(reader["Precio"]) : 0f,
-                            ImagenPath = reader["ImagenPath"] != DBNull.Value ? Convert.ToString(reader["ImagenPath"]) : string.Empty
-                        };
-                    }
-                }
-                catch (Exception ex) {
-                    MessageBox.Show("Error al consultar la base de datos");
-                }
+            SqlDataReader lector = comando.ExecuteReader();
+            if (lector.Read())
+            {
+                producto = new Producto
+                {
+                    Id = Convert.ToInt32(lector["Id"]),
+                    Nombre = lector["Nombre"].ToString(),
+                    Tamano = Convert.ToInt32(lector["Tamano"]),
+                    Descripcion = lector["Descripcion"].ToString(),
+                    Precio = Convert.ToSingle(lector["Precio"]),
+                    ImagenPath = lector["ImagenPath"].ToString()
+                };
             }
+
+            lector.Close();
+            conexion.Close();
+
             return producto;
         }
     }
