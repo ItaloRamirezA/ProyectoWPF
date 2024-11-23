@@ -70,5 +70,10 @@ namespace ProyectoWPF
             this.Close();
         }
 
+        private void Checkout_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Checkout");
+        }
+
     }
 }
