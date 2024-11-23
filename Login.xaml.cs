@@ -16,40 +16,44 @@ namespace ProyectoWPF
             string usuario = UsuarioTextBox.Text.Trim();
             string contrasena = PasswordBox.Password.Trim();
 
-            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contrasena)) {
+            if (usuario == "" || contrasena == "")
+            {
                 MessageBox.Show("Por favor, completa todos los campos.");
                 return;
             }
 
-            try {
-                string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=ProyectoWPF;Integrated Security=True;";
+            string cadenaConexion = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=ProyectoWPF;Integrated Security=True;";
+            SqlConnection conexion = new SqlConnection(cadenaConexion);
 
-                using (SqlConnection connection = new SqlConnection(connectionString)) {
-                    connection.Open();
+            try
+            {
+                conexion.Open();
+                string consulta = "SELECT COUNT(*) FROM Login WHERE Usuario = @Usuario AND Contrasena = @Contrasena";
+                SqlCommand comando = new SqlCommand(consulta, conexion);
+                comando.Parameters.AddWithValue("@Usuario", usuario);
+                comando.Parameters.AddWithValue("@Contrasena", contrasena);
 
-                    string query = "SELECT COUNT(1) FROM Login WHERE Usuario = @Usuario AND Contrasena = @Contrasena";
+                int resultado = Convert.ToInt32(comando.ExecuteScalar());
 
-                    using (SqlCommand command = new SqlCommand(query, connection)) {
-                        command.Parameters.AddWithValue("@Usuario", usuario);
-                        command.Parameters.AddWithValue("@Contrasena", contrasena);
-
-                        int count = Convert.ToInt32(command.ExecuteScalar());
-
-                        if (count == 1) {
-                            MessageBox.Show("Inicio de sesión exitoso.");
-
-                            Home homeWindow = new Home();
-                            homeWindow.Show();
-                            this.Close();
-                        }
-                        else {
-                            MessageBox.Show("Usuario o contraseña incorrectos.");
-                        }
-                    }
+                if (resultado == 1)
+                {
+                    MessageBox.Show("Inicio de sesión exitoso.");
+                    Home ventanaHome = new Home();
+                    ventanaHome.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o contraseña incorrectos.");
                 }
             }
-            catch (Exception ex) {
-                MessageBox.Show("Error al conectar con la base de datos");
+            catch
+            {
+                MessageBox.Show("No se pudo conectar con la base de datos.");
+            }
+            finally
+            {
+                conexion.Close();
             }
         }
     }
