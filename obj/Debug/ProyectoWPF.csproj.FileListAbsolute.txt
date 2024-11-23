@@ -4,7 +4,6 @@ C:\Users\italo\Desktop\ProyectoWPF\obj\Debug\Home.g.cs
 C:\Users\italo\Desktop\ProyectoWPF\obj\Debug\Login.g.cs
 C:\Users\italo\Desktop\ProyectoWPF\obj\Debug\App.g.cs
 C:\Users\italo\Desktop\ProyectoWPF\obj\Debug\ProyectoWPF_MarkupCompile.cache
-C:\Users\italo\Desktop\ProyectoWPF\obj\Debug\ProyectoWPF_MarkupCompile.lref
 C:\Users\italo\Desktop\ProyectoWPF\bin\Debug\ProyectoWPF.exe.config
 C:\Users\italo\Desktop\ProyectoWPF\bin\Debug\ProyectoWPF.exe
 C:\Users\italo\Desktop\ProyectoWPF\bin\Debug\ProyectoWPF.pdb

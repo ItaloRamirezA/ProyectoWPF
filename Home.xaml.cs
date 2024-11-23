@@ -62,5 +62,13 @@ namespace ProyectoWPF
 
             return producto;
         }
+
+        private void CerrarSesion_Click(object sender, RoutedEventArgs e)
+        {
+            Login ventanaLogin = new Login();
+            ventanaLogin.Show();
+            this.Close();
+        }
+
     }
 }
