@@ -3,12 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Home" Height="600" Width="900" Background="White">
     <Grid>
-        <!-- Barra de Navegación Superior -->
         <DockPanel Background="#FFEB6EC3" Height="60" VerticalAlignment="Top">
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
                 <Image Source="Imagenes/Comun/logoPequeno.png" Width="50" Height="40" Margin="10"/>
                 <Button Content="Home" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
-                        Foreground="White" BorderBrush="Transparent" Margin="5"/>
+                    Foreground="White" BorderBrush="Transparent" Margin="5"/>
+                <Button Content="Characters" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
+                    Foreground="White" BorderBrush="Transparent" Margin="5"/>
+                <Button Content="News" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
+                    Foreground="White" BorderBrush="Transparent" Margin="5"/>
+                <Button Content="Cart" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
+                 Foreground="White" BorderBrush="Transparent" Margin="5"/>
             </StackPanel>
 
             <Button Content="Cerrar Sesión" 
@@ -25,10 +30,6 @@
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Grid>
-                            <Grid.Effect>
-                                <!-- Sombra gris -->
-                                <DropShadowEffect Color="Gray" Direction="270" BlurRadius="5" ShadowDepth="3"/>
-                            </Grid.Effect>
                             <Border Background="{TemplateBinding Background}" 
                                     BorderBrush="{TemplateBinding BorderBrush}" 
                                     BorderThickness="{TemplateBinding BorderThickness}" 
