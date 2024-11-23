@@ -30,6 +30,18 @@ namespace ProyectoWPF
         {
             this.Close();
         }
+
+        private void CerrarSesion_Click(object sender, RoutedEventArgs e)
+        {
+            Login ventanaLogin = new Login();
+            ventanaLogin.Show();
+            this.Close();
+        }
+
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
 
