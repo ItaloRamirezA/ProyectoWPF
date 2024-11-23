@@ -26,6 +26,10 @@ namespace ProyectoWPF
 
             ImagenProducto.Source = new BitmapImage(new Uri(producto.ImagenPath, UriKind.Relative));
         }
+        private void SalirButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
 
